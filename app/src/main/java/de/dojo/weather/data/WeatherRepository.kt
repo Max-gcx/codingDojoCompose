@@ -6,7 +6,7 @@ import java.util.Date
 object WeatherRepository {
     val currentWeather = Weather(
         date = getDate(0),
-        place = "gxc headquarter",
+        place = "gcx headquarter",
         weatherType = WeatherType.PARTLY_SUNNY,
         temperature = 24,
         windSpeed = 2.2f,
